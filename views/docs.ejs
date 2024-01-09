@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="<%= path %>/wpf_books.svg" />
+    <link rel="stylesheet" href="<%= path %>/docs/docs.css" />
+    <link rel="stylesheet" href="<%= path %>/docs/prism.theme.css" />
+
+    <title>API Documentation</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="mytsu">
+        <img src="<%= path %>/wpf_books.svg" />
+        <p>MyTSU Classroom</p>
+      </div>
+      <p class="title_docs">API Documentation</p>
+    </header>
+
+    <main>
+      <!-- Base URL -->
+      <section class="guideline">
+        <p class="guideline_title">Base URL</p>
+        <p class="guideline_link">https://mytsuclassroom.my.id/api</p>
+      </section>
+
+      <!-- Endpoints -->
+      <% for (let item of jsonData) { %>
+      <section class="accordion">
+        <div class="collapsible">
+          <div class="label">
+            <p class="method" id="<%= item.method %>"><%= item.method %></p>
+            <p class="endpoint"><%= item.endpoint %></p>
+            <p class="endpoint_desc"><%= item.description %></p>
+          </div>
+          <div class="content">
+            <div class="sub_content">
+              <p class="command">Authorization</p>
+              <% if (item.authorization) { %>
+              <pre><code class="language-json"><%- item.authorization %></code></pre>
+              <% } else { %>
+              <p class="command_content">Empty</p>
+              <% } %>
+            </div>
+            <div class="sub_content">
+              <p class="command">Request</p>
+              <% if (item.request) { %>
+              <pre><code class="language-json"><%- JSON.stringify(item.request, null, 2) %></code></pre>
+              <% } else { %>
+              <p class="command_content">Empty</p>
+              <% } %>
+            </div>
+            <div class="sub_content">
+              <p class="command">Response</p>
+              <pre><code class="language-json"><%- JSON.stringify(item.response, null, 2) %></code></pre>
+            </div>
+          </div>
+        </div>
+      </section>
+      <% } %>
+    </main>
+  </body>
+  <script src="<%= path %>/docs/prism.js"></script>
+  <script nonce="<%= nonce %>">
+    document.addEventListener("DOMContentLoaded", function () {
+      document
+        .querySelectorAll("code[class^='language-']")
+        .forEach(function (element) {
+          element.innerHTML = element.innerHTML.trim();
+        });
+
+      Prism.highlightAll();
+    });
+  </script>
+  <script nonce="<%= nonce %>">
+    const label = document.getElementsByClassName("label");
+
+    for (let i = 0; i < label.length; i++) {
+      label[i].addEventListener("click", function () {
+        this.parentElement.classList.toggle("active");
+      });
+    }
+  </script>
+</html>

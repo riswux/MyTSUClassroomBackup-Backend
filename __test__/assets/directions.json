@@ -1,0 +1,1234 @@
+[
+  {
+    "direction": "Fundamental Informatic and Informations Technology",
+    "facultyId": "65354f3c8302539a6d924f82",
+    "group": [
+      { "groupCode": "510101" },
+      { "groupCode": "510102" },
+      { "groupCode": "510103" },
+      { "groupCode": "510104" },
+      { "groupCode": "510105" }
+    ]
+  },
+  {
+    "direction": "Applied Mathematics and Informatics",
+    "facultyId": "65354f3c8302539a6d924f82",
+    "group": [
+      { "groupCode": "510201" },
+      { "groupCode": "510202" },
+      { "groupCode": "510203" },
+      { "groupCode": "510204" },
+      { "groupCode": "510205" }
+    ]
+  },
+  {
+    "direction": "Information Systems Software and Administration",
+    "facultyId": "65354f3c8302539a6d924f82",
+    "group": [
+      { "groupCode": "510301" },
+      { "groupCode": "510302" },
+      { "groupCode": "510303" },
+      { "groupCode": "510304" },
+      { "groupCode": "510305" }
+    ]
+  },
+  {
+    "direction": "Applied Informatics",
+    "facultyId": "65354f3c8302539a6d924f82",
+    "group": [
+      { "groupCode": "510401" },
+      { "groupCode": "510402" },
+      { "groupCode": "510403" },
+      { "groupCode": "510404" },
+      { "groupCode": "510405" }
+    ]
+  },
+  {
+    "direction": "Software Engineering",
+    "facultyId": "65354f3c8302539a6d924f82",
+    "group": [
+      { "groupCode": "510501" },
+      { "groupCode": "510502" },
+      { "groupCode": "510503" },
+      { "groupCode": "510504" },
+      { "groupCode": "510505" }
+    ]
+  },
+  {
+    "direction": "Computer Security",
+    "facultyId": "65354f3c8302539a6d924f82",
+    "group": [
+      { "groupCode": "510601" },
+      { "groupCode": "510602" },
+      { "groupCode": "510603" },
+      { "groupCode": "510604" },
+      { "groupCode": "510605" }
+    ]
+  },
+  {
+    "direction": "Big Data & Data Science",
+    "facultyId": "65354f3c8302539a6d924f82",
+    "group": [
+      { "groupCode": "510701" },
+      { "groupCode": "510702" },
+      { "groupCode": "510703" },
+      { "groupCode": "510704" },
+      { "groupCode": "510705" }
+    ]
+  },
+  {
+    "direction": "Computer and Information Sciences",
+    "facultyId": "65354f3c8302539a6d924f82",
+    "group": [
+      { "groupCode": "510801" },
+      { "groupCode": "510802" },
+      { "groupCode": "510803" },
+      { "groupCode": "510804" },
+      { "groupCode": "510805" }
+    ]
+  },
+  {
+    "direction": "Informatics and Computer Systems",
+    "facultyId": "65354f3c8302539a6d924f82",
+    "group": [
+      { "groupCode": "510901" },
+      { "groupCode": "510902" },
+      { "groupCode": "510903" },
+      { "groupCode": "510904" },
+      { "groupCode": "510905" }
+    ]
+  },
+  {
+    "direction": "Information Security",
+    "facultyId": "65354f3c8302539a6d924f82",
+    "group": [
+      { "groupCode": "5101001" },
+      { "groupCode": "5101002" },
+      { "groupCode": "5101003" },
+      { "groupCode": "5101004" },
+      { "groupCode": "5101005" }
+    ]
+  },
+  {
+    "direction": "Ecology and Environmental Management",
+    "facultyId": "65354f3c8302539a6d924f83",
+    "group": [
+      { "groupCode": "520101" },
+      { "groupCode": "520102" },
+      { "groupCode": "520103" },
+      { "groupCode": "520104" },
+      { "groupCode": "520105" }
+    ]
+  },
+  {
+    "direction": "Biology",
+    "facultyId": "65354f3c8302539a6d924f83",
+    "group": [
+      { "groupCode": "520201" },
+      { "groupCode": "520202" },
+      { "groupCode": "520203" },
+      { "groupCode": "520204" },
+      { "groupCode": "520205" }
+    ]
+  },
+  {
+    "direction": "Soil Science",
+    "facultyId": "65354f3c8302539a6d924f83",
+    "group": [
+      { "groupCode": "520301" },
+      { "groupCode": "520302" },
+      { "groupCode": "520303" },
+      { "groupCode": "520304" },
+      { "groupCode": "520305" }
+    ]
+  },
+  {
+    "direction": "Forestry",
+    "facultyId": "65354f3c8302539a6d924f83",
+    "group": [
+      { "groupCode": "520401" },
+      { "groupCode": "520402" },
+      { "groupCode": "520403" },
+      { "groupCode": "520404" },
+      { "groupCode": "520405" }
+    ]
+  },
+  {
+    "direction": "Agronomy",
+    "facultyId": "65354f3c8302539a6d924f83",
+    "group": [
+      { "groupCode": "520501" },
+      { "groupCode": "520502" },
+      { "groupCode": "520503" },
+      { "groupCode": "520504" },
+      { "groupCode": "520505" }
+    ]
+  },
+  {
+    "direction": "Landscape Architecture",
+    "facultyId": "65354f3c8302539a6d924f83",
+    "group": [
+      { "groupCode": "520601" },
+      { "groupCode": "520602" },
+      { "groupCode": "520603" },
+      { "groupCode": "520604" },
+      { "groupCode": "520605" }
+    ]
+  },
+  {
+    "direction": "Culturology",
+    "facultyId": "65354f3c8302539a6d924f84",
+    "group": [
+      { "groupCode": "530101" },
+      { "groupCode": "530102" },
+      { "groupCode": "530103" },
+      { "groupCode": "530104" },
+      { "groupCode": "530105" }
+    ]
+  },
+  {
+    "direction": "Museology and Protection of Cultural and Natural Heritage",
+    "facultyId": "65354f3c8302539a6d924f84",
+    "group": [
+      { "groupCode": "530201" },
+      { "groupCode": "530202" },
+      { "groupCode": "530203" },
+      { "groupCode": "530204" },
+      { "groupCode": "530205" }
+    ]
+  },
+  {
+    "direction": "Design",
+    "facultyId": "65354f3c8302539a6d924f84",
+    "group": [
+      { "groupCode": "530301" },
+      { "groupCode": "530302" },
+      { "groupCode": "530303" },
+      { "groupCode": "530304" },
+      { "groupCode": "530305" }
+    ]
+  },
+  {
+    "direction": "The Art of Concert Performing",
+    "facultyId": "65354f3c8302539a6d924f84",
+    "group": [
+      { "groupCode": "530401" },
+      { "groupCode": "530402" },
+      { "groupCode": "530403" },
+      { "groupCode": "530404" },
+      { "groupCode": "530405" }
+    ]
+  },
+  {
+    "direction": "Musical and theatrical art",
+    "facultyId": "65354f3c8302539a6d924f84",
+    "group": [
+      { "groupCode": "530501" },
+      { "groupCode": "530502" },
+      { "groupCode": "530503" },
+      { "groupCode": "530504" },
+      { "groupCode": "530505" }
+    ]
+  },
+  {
+    "direction": "The artistic direction of Symphony Orchestra and Academic Choir",
+    "facultyId": "65354f3c8302539a6d924f84",
+    "group": [
+      { "groupCode": "530601" },
+      { "groupCode": "530602" },
+      { "groupCode": "530603" },
+      { "groupCode": "530604" },
+      { "groupCode": "530605" }
+    ]
+  },
+  {
+    "direction": "Графика",
+    "facultyId": "65354f3c8302539a6d924f84",
+    "group": [
+      { "groupCode": "530701" },
+      { "groupCode": "530702" },
+      { "groupCode": "530703" },
+      { "groupCode": "530704" },
+      { "groupCode": "530705" }
+    ]
+  },
+  {
+    "direction": "Педагогическое образование",
+    "facultyId": "65354f3c8302539a6d924f84",
+    "group": [
+      { "groupCode": "530801" },
+      { "groupCode": "530802" },
+      { "groupCode": "530803" },
+      { "groupCode": "530804" },
+      { "groupCode": "530805" }
+    ]
+  },
+  {
+    "direction": "Practical Cultural Studies and Management in the Socio-Cultural Sphere",
+    "facultyId": "65354f3c8302539a6d924f84",
+    "group": [
+      { "groupCode": "530901" },
+      { "groupCode": "530902" },
+      { "groupCode": "530903" },
+      { "groupCode": "530904" },
+      { "groupCode": "530905" }
+    ]
+  },
+  {
+    "direction": "Socio-cultural design in museum practice",
+    "facultyId": "65354f3c8302539a6d924f84",
+    "group": [
+      { "groupCode": "5301001" },
+      { "groupCode": "5301002" },
+      { "groupCode": "5301003" },
+      { "groupCode": "5301004" },
+      { "groupCode": "5301005" }
+    ]
+  },
+  {
+    "direction": "Financial Economics",
+    "facultyId": "65354f3c8302539a6d924f85",
+    "group": [
+      { "groupCode": "540101" },
+      { "groupCode": "540102" },
+      { "groupCode": "540103" },
+      { "groupCode": "540104" },
+      { "groupCode": "540105" }
+    ]
+  },
+  {
+    "direction": "Management",
+    "facultyId": "65354f3c8302539a6d924f85",
+    "group": [
+      { "groupCode": "540201" },
+      { "groupCode": "540202" },
+      { "groupCode": "540203" },
+      { "groupCode": "540204" },
+      { "groupCode": "540205" }
+    ]
+  },
+  {
+    "direction": "Business Analytics",
+    "facultyId": "65354f3c8302539a6d924f85",
+    "group": [
+      { "groupCode": "540301" },
+      { "groupCode": "540302" },
+      { "groupCode": "540303" },
+      { "groupCode": "540304" },
+      { "groupCode": "540305" }
+    ]
+  },
+  {
+    "direction": "Enterpreneurship and Project Management",
+    "facultyId": "65354f3c8302539a6d924f85",
+    "group": [
+      { "groupCode": "540401" },
+      { "groupCode": "540402" },
+      { "groupCode": "540403" },
+      { "groupCode": "540404" },
+      { "groupCode": "540405" }
+    ]
+  },
+  {
+    "direction": "Economic Security",
+    "facultyId": "65354f3c8302539a6d924f85",
+    "group": [
+      { "groupCode": "540501" },
+      { "groupCode": "540502" },
+      { "groupCode": "540503" },
+      { "groupCode": "540504" },
+      { "groupCode": "540505" }
+    ]
+  },
+  {
+    "direction": "State and Municipal Administration",
+    "facultyId": "65354f3c8302539a6d924f85",
+    "group": [
+      { "groupCode": "540601" },
+      { "groupCode": "540602" },
+      { "groupCode": "540603" },
+      { "groupCode": "540604" },
+      { "groupCode": "540605" }
+    ]
+  },
+  {
+    "direction": "Strategic Human Resource Management",
+    "facultyId": "65354f3c8302539a6d924f85",
+    "group": [
+      { "groupCode": "540701" },
+      { "groupCode": "540702" },
+      { "groupCode": "540703" },
+      { "groupCode": "540704" },
+      { "groupCode": "540705" }
+    ]
+  },
+  {
+    "direction": "International Management",
+    "facultyId": "65354f3c8302539a6d924f85",
+    "group": [
+      { "groupCode": "540801" },
+      { "groupCode": "540802" },
+      { "groupCode": "540803" },
+      { "groupCode": "540804" },
+      { "groupCode": "540805" }
+    ]
+  },
+  {
+    "direction": "Economy",
+    "facultyId": "65354f3c8302539a6d924f85",
+    "group": [
+      { "groupCode": "540901" },
+      { "groupCode": "540902" },
+      { "groupCode": "540903" },
+      { "groupCode": "540904" },
+      { "groupCode": "540905" }
+    ]
+  },
+  {
+    "direction": "Finance and Accounting in Organizations",
+    "facultyId": "65354f3c8302539a6d924f85",
+    "group": [
+      { "groupCode": "5401001" },
+      { "groupCode": "5401002" },
+      { "groupCode": "5401003" },
+      { "groupCode": "5401004" },
+      { "groupCode": "5401005" }
+    ]
+  },
+  {
+    "direction": "Software Engineering",
+    "facultyId": "65354f3c8302539a6d924f86",
+    "group": [
+      { "groupCode": "550101" },
+      { "groupCode": "550102" },
+      { "groupCode": "550103" },
+      { "groupCode": "550104" },
+      { "groupCode": "550105" }
+    ]
+  },
+  {
+    "direction": "Jurisprudence",
+    "facultyId": "65354f3c8302539a6d924f87",
+    "group": [
+      { "groupCode": "560101" },
+      { "groupCode": "560102" },
+      { "groupCode": "560103" },
+      { "groupCode": "560104" },
+      { "groupCode": "560105" }
+    ]
+  },
+  {
+    "direction": "Legal Suport of National Security",
+    "facultyId": "65354f3c8302539a6d924f87",
+    "group": [
+      { "groupCode": "560201" },
+      { "groupCode": "560202" },
+      { "groupCode": "560203" },
+      { "groupCode": "560204" },
+      { "groupCode": "560205" }
+    ]
+  },
+  {
+    "direction": "Geology",
+    "facultyId": "65354f3c8302539a6d924f88",
+    "group": [
+      { "groupCode": "570101" },
+      { "groupCode": "570102" },
+      { "groupCode": "570103" },
+      { "groupCode": "570104" },
+      { "groupCode": "570105" }
+    ]
+  },
+  {
+    "direction": "Geography",
+    "facultyId": "65354f3c8302539a6d924f88",
+    "group": [
+      { "groupCode": "570201" },
+      { "groupCode": "570202" },
+      { "groupCode": "570203" },
+      { "groupCode": "570204" },
+      { "groupCode": "570205" }
+    ]
+  },
+  {
+    "direction": "Hydrometeorology",
+    "facultyId": "65354f3c8302539a6d924f88",
+    "group": [
+      { "groupCode": "570301" },
+      { "groupCode": "570302" },
+      { "groupCode": "570303" },
+      { "groupCode": "570304" },
+      { "groupCode": "570305" }
+    ]
+  },
+  {
+    "direction": "Ecology and Nature Management",
+    "facultyId": "65354f3c8302539a6d924f88",
+    "group": [
+      { "groupCode": "570401" },
+      { "groupCode": "570402" },
+      { "groupCode": "570403" },
+      { "groupCode": "570404" },
+      { "groupCode": "570405" }
+    ]
+  },
+  {
+    "direction": "Earth Evolution: Geological Processes and minerals",
+    "facultyId": "65354f3c8302539a6d924f88",
+    "group": [
+      { "groupCode": "570501" },
+      { "groupCode": "570502" },
+      { "groupCode": "570503" },
+      { "groupCode": "570504" },
+      { "groupCode": "570505" }
+    ]
+  },
+  {
+    "direction": "Practical Geology",
+    "facultyId": "65354f3c8302539a6d924f88",
+    "group": [
+      { "groupCode": "570601" },
+      { "groupCode": "570602" },
+      { "groupCode": "570603" },
+      { "groupCode": "570604" },
+      { "groupCode": "570605" }
+    ]
+  },
+  {
+    "direction": "Mineral Geology",
+    "facultyId": "65354f3c8302539a6d924f88",
+    "group": [
+      { "groupCode": "570701" },
+      { "groupCode": "570702" },
+      { "groupCode": "570703" },
+      { "groupCode": "570704" },
+      { "groupCode": "570705" }
+    ]
+  },
+  {
+    "direction": "Engineering Surveys for Construction",
+    "facultyId": "65354f3c8302539a6d924f88",
+    "group": [
+      { "groupCode": "570801" },
+      { "groupCode": "570802" },
+      { "groupCode": "570803" },
+      { "groupCode": "570804" },
+      { "groupCode": "570805" }
+    ]
+  },
+  {
+    "direction": "Digital Technologies in Geographical Science and Education",
+    "facultyId": "65354f3c8302539a6d924f88",
+    "group": [
+      { "groupCode": "570901" },
+      { "groupCode": "570902" },
+      { "groupCode": "570903" },
+      { "groupCode": "570904" },
+      { "groupCode": "570905" }
+    ]
+  },
+  {
+    "direction": "Geographical Bases of Tourism Department",
+    "facultyId": "65354f3c8302539a6d924f88",
+    "group": [
+      { "groupCode": "5701001" },
+      { "groupCode": "5701002" },
+      { "groupCode": "5701003" },
+      { "groupCode": "5701004" },
+      { "groupCode": "5701005" }
+    ]
+  },
+  {
+    "direction": "Geoecology, Nature and Technosphere Safety",
+    "facultyId": "65354f3c8302539a6d924f88",
+    "group": [
+      { "groupCode": "5701101" },
+      { "groupCode": "5701102" },
+      { "groupCode": "5701103" },
+      { "groupCode": "5701104" },
+      { "groupCode": "5701105" }
+    ]
+  },
+  {
+    "direction": "Mathematics",
+    "facultyId": "65354f3c8302539a6d924f89",
+    "group": [
+      { "groupCode": "580101" },
+      { "groupCode": "580102" },
+      { "groupCode": "580103" },
+      { "groupCode": "580104" },
+      { "groupCode": "580105" }
+    ]
+  },
+  {
+    "direction": "Mathematics and Computer Science",
+    "facultyId": "65354f3c8302539a6d924f89",
+    "group": [
+      { "groupCode": "580201" },
+      { "groupCode": "580202" },
+      { "groupCode": "580203" },
+      { "groupCode": "580204" },
+      { "groupCode": "580205" }
+    ]
+  },
+  {
+    "direction": "Mechanics and Mathematical Modeling",
+    "facultyId": "65354f3c8302539a6d924f89",
+    "group": [
+      { "groupCode": "580301" },
+      { "groupCode": "580302" },
+      { "groupCode": "580303" },
+      { "groupCode": "580304" },
+      { "groupCode": "580305" }
+    ]
+  },
+  {
+    "direction": "Radiophysics",
+    "facultyId": "65354f3c8302539a6d924f8a",
+    "group": [
+      { "groupCode": "590101" },
+      { "groupCode": "590102" },
+      { "groupCode": "590103" },
+      { "groupCode": "590104" },
+      { "groupCode": "590105" }
+    ]
+  },
+  {
+    "direction": "Opticotechnics",
+    "facultyId": "65354f3c8302539a6d924f8a",
+    "group": [
+      { "groupCode": "590201" },
+      { "groupCode": "590202" },
+      { "groupCode": "590203" },
+      { "groupCode": "590204" },
+      { "groupCode": "590205" }
+    ]
+  },
+  {
+    "direction": "Photonics and Optoinformatics",
+    "facultyId": "65354f3c8302539a6d924f8a",
+    "group": [
+      { "groupCode": "590301" },
+      { "groupCode": "590302" },
+      { "groupCode": "590303" },
+      { "groupCode": "590304" },
+      { "groupCode": "590305" }
+    ]
+  },
+  {
+    "direction": "Laser Equipment and Laser Technologies",
+    "facultyId": "65354f3c8302539a6d924f8a",
+    "group": [
+      { "groupCode": "590401" },
+      { "groupCode": "590402" },
+      { "groupCode": "590403" },
+      { "groupCode": "590404" },
+      { "groupCode": "590405" }
+    ]
+  },
+  {
+    "direction": "Radioelectronic Systems and Complexes",
+    "facultyId": "65354f3c8302539a6d924f8a",
+    "group": [
+      { "groupCode": "590501" },
+      { "groupCode": "590502" },
+      { "groupCode": "590503" },
+      { "groupCode": "590504" },
+      { "groupCode": "590505" }
+    ]
+  },
+  {
+    "direction": "Physics and Astronomy",
+    "facultyId": "65354f3c8302539a6d924f8a",
+    "group": [
+      { "groupCode": "590601" },
+      { "groupCode": "590602" },
+      { "groupCode": "590603" },
+      { "groupCode": "590604" },
+      { "groupCode": "590605" }
+    ]
+  },
+  {
+    "direction": "Informatics and Computer Engineering",
+    "facultyId": "65354f3c8302539a6d924f8a",
+    "group": [
+      { "groupCode": "590701" },
+      { "groupCode": "590702" },
+      { "groupCode": "590703" },
+      { "groupCode": "590704" },
+      { "groupCode": "590705" }
+    ]
+  },
+  {
+    "direction": "Journalism and New Media",
+    "facultyId": "65354f3c8302539a6d924f8b",
+    "group": [
+      { "groupCode": "600101" },
+      { "groupCode": "600102" },
+      { "groupCode": "600103" },
+      { "groupCode": "600104" },
+      { "groupCode": "600105" }
+    ]
+  },
+  {
+    "direction": "Journalism and Digital Media Platforms",
+    "facultyId": "65354f3c8302539a6d924f8b",
+    "group": [
+      { "groupCode": "600201" },
+      { "groupCode": "600202" },
+      { "groupCode": "600203" },
+      { "groupCode": "600204" },
+      { "groupCode": "600205" }
+    ]
+  },
+  {
+    "direction": "Linguistics",
+    "facultyId": "65354f3c8302539a6d924f8c",
+    "group": [
+      { "groupCode": "610101" },
+      { "groupCode": "610102" },
+      { "groupCode": "610103" },
+      { "groupCode": "610104" },
+      { "groupCode": "610105" }
+    ]
+  },
+  {
+    "direction": "Translation and Translation Studies",
+    "facultyId": "65354f3c8302539a6d924f8c",
+    "group": [
+      { "groupCode": "610201" },
+      { "groupCode": "610202" },
+      { "groupCode": "610203" },
+      { "groupCode": "610204" },
+      { "groupCode": "610205" }
+    ]
+  },
+  {
+    "direction": "Innovation",
+    "facultyId": "65354f3c8302539a6d924f8d",
+    "group": [
+      { "groupCode": "620101" },
+      { "groupCode": "620102" },
+      { "groupCode": "620103" },
+      { "groupCode": "620104" },
+      { "groupCode": "620105" }
+    ]
+  },
+  {
+    "direction": "Quality Management",
+    "facultyId": "65354f3c8302539a6d924f8d",
+    "group": [
+      { "groupCode": "620201" },
+      { "groupCode": "620202" },
+      { "groupCode": "620203" },
+      { "groupCode": "620204" },
+      { "groupCode": "620205" }
+    ]
+  },
+  {
+    "direction": "Information Systems and Technologies",
+    "facultyId": "65354f3c8302539a6d924f8d",
+    "group": [
+      { "groupCode": "620301" },
+      { "groupCode": "620302" },
+      { "groupCode": "620303" },
+      { "groupCode": "620304" },
+      { "groupCode": "620305" }
+    ]
+  },
+  {
+    "direction": "History",
+    "facultyId": "65354f3c8302539a6d924f8e",
+    "group": [
+      { "groupCode": "630101" },
+      { "groupCode": "630102" },
+      { "groupCode": "630103" },
+      { "groupCode": "630104" },
+      { "groupCode": "630105" }
+    ]
+  },
+  {
+    "direction": "Documentation and Archiving",
+    "facultyId": "65354f3c8302539a6d924f8e",
+    "group": [
+      { "groupCode": "630201" },
+      { "groupCode": "630202" },
+      { "groupCode": "630203" },
+      { "groupCode": "630204" },
+      { "groupCode": "630205" }
+    ]
+  },
+  {
+    "direction": "Anthropology and Ethnology",
+    "facultyId": "65354f3c8302539a6d924f8e",
+    "group": [
+      { "groupCode": "630301" },
+      { "groupCode": "630302" },
+      { "groupCode": "630303" },
+      { "groupCode": "630304" },
+      { "groupCode": "630305" }
+    ]
+  },
+  {
+    "direction": "Foreign Regional Studies",
+    "facultyId": "65354f3c8302539a6d924f8e",
+    "group": [
+      { "groupCode": "630401" },
+      { "groupCode": "630402" },
+      { "groupCode": "630403" },
+      { "groupCode": "630404" },
+      { "groupCode": "630405" }
+    ]
+  },
+  {
+    "direction": "Regional Studies of Russia",
+    "facultyId": "65354f3c8302539a6d924f8e",
+    "group": [
+      { "groupCode": "630501" },
+      { "groupCode": "630502" },
+      { "groupCode": "630503" },
+      { "groupCode": "630504" },
+      { "groupCode": "630505" }
+    ]
+  },
+  {
+    "direction": "Political Science",
+    "facultyId": "65354f3c8302539a6d924f8e",
+    "group": [
+      { "groupCode": "630601" },
+      { "groupCode": "630602" },
+      { "groupCode": "630603" },
+      { "groupCode": "630604" },
+      { "groupCode": "630605" }
+    ]
+  },
+  {
+    "direction": "International Relationships",
+    "facultyId": "65354f3c8302539a6d924f8e",
+    "group": [
+      { "groupCode": "630701" },
+      { "groupCode": "630702" },
+      { "groupCode": "630703" },
+      { "groupCode": "630704" },
+      { "groupCode": "630705" }
+    ]
+  },
+  {
+    "direction": "Historical Sciences and Archeology",
+    "facultyId": "65354f3c8302539a6d924f8e",
+    "group": [
+      { "groupCode": "630801" },
+      { "groupCode": "630802" },
+      { "groupCode": "630803" },
+      { "groupCode": "630804" },
+      { "groupCode": "630805" }
+    ]
+  },
+  {
+    "direction": "Political Sciences and Regional Studies",
+    "facultyId": "65354f3c8302539a6d924f8e",
+    "group": [
+      { "groupCode": "630901" },
+      { "groupCode": "630902" },
+      { "groupCode": "630903" },
+      { "groupCode": "630904" },
+      { "groupCode": "630905" }
+    ]
+  },
+  {
+    "direction": "Psychology",
+    "facultyId": "65354f3c8302539a6d924f8f",
+    "group": [
+      { "groupCode": "640101" },
+      { "groupCode": "640102" },
+      { "groupCode": "640103" },
+      { "groupCode": "640104" },
+      { "groupCode": "640105" }
+    ]
+  },
+  {
+    "direction": "Clinical Psychology",
+    "facultyId": "65354f3c8302539a6d924f8f",
+    "group": [
+      { "groupCode": "640201" },
+      { "groupCode": "640202" },
+      { "groupCode": "640203" },
+      { "groupCode": "640204" },
+      { "groupCode": "640205" }
+    ]
+  },
+  {
+    "direction": "Advertising and Public Relations",
+    "facultyId": "65354f3c8302539a6d924f8f",
+    "group": [
+      { "groupCode": "640301" },
+      { "groupCode": "640302" },
+      { "groupCode": "640303" },
+      { "groupCode": "640304" },
+      { "groupCode": "640305" }
+    ]
+  },
+  {
+    "direction": "Organizations of Work with Youth",
+    "facultyId": "65354f3c8302539a6d924f8f",
+    "group": [
+      { "groupCode": "640401" },
+      { "groupCode": "640402" },
+      { "groupCode": "640403" },
+      { "groupCode": "640404" },
+      { "groupCode": "640405" }
+    ]
+  },
+  {
+    "direction": "Физическая культура",
+    "facultyId": "65354f3c8302539a6d924f90",
+    "group": [
+      { "groupCode": "650101" },
+      { "groupCode": "650102" },
+      { "groupCode": "650103" },
+      { "groupCode": "650104" },
+      { "groupCode": "650105" }
+    ]
+  },
+  {
+    "direction": "Рекреация и спортивно-оздоровительный туризм",
+    "facultyId": "65354f3c8302539a6d924f90",
+    "group": [
+      { "groupCode": "650201" },
+      { "groupCode": "650202" },
+      { "groupCode": "650203" },
+      { "groupCode": "650204" },
+      { "groupCode": "650205" }
+    ]
+  },
+  {
+    "direction": "Technologies of Physical Education",
+    "facultyId": "65354f3c8302539a6d924f90",
+    "group": [
+      { "groupCode": "650301" },
+      { "groupCode": "650302" },
+      { "groupCode": "650303" },
+      { "groupCode": "650304" },
+      { "groupCode": "650305" }
+    ]
+  },
+  {
+    "direction": "Sports and Improving Activity and Tourism",
+    "facultyId": "65354f3c8302539a6d924f90",
+    "group": [
+      { "groupCode": "650401" },
+      { "groupCode": "650402" },
+      { "groupCode": "650403" },
+      { "groupCode": "650404" },
+      { "groupCode": "650405" }
+    ]
+  },
+  {
+    "direction": "Mechatronics and Robotics",
+    "facultyId": "65354f3c8302539a6d924f91",
+    "group": [
+      { "groupCode": "660101" },
+      { "groupCode": "660102" },
+      { "groupCode": "660103" },
+      { "groupCode": "660104" },
+      { "groupCode": "660105" }
+    ]
+  },
+  {
+    "direction": "Ballistics and Hydroaerodynamics",
+    "facultyId": "65354f3c8302539a6d924f91",
+    "group": [
+      { "groupCode": "660201" },
+      { "groupCode": "660202" },
+      { "groupCode": "660203" },
+      { "groupCode": "660204" },
+      { "groupCode": "660205" }
+    ]
+  },
+  {
+    "direction": "Applied Mechanics",
+    "facultyId": "65354f3c8302539a6d924f91",
+    "group": [
+      { "groupCode": "660301" },
+      { "groupCode": "660302" },
+      { "groupCode": "660303" },
+      { "groupCode": "660304" },
+      { "groupCode": "660305" }
+    ]
+  },
+  {
+    "direction": "Technical Physics",
+    "facultyId": "65354f3c8302539a6d924f91",
+    "group": [
+      { "groupCode": "660401" },
+      { "groupCode": "660402" },
+      { "groupCode": "660403" },
+      { "groupCode": "660404" },
+      { "groupCode": "660405" }
+    ]
+  },
+  {
+    "direction": "Solid Mechanics",
+    "facultyId": "65354f3c8302539a6d924f91",
+    "group": [
+      { "groupCode": "660501" },
+      { "groupCode": "660502" },
+      { "groupCode": "660503" },
+      { "groupCode": "660504" },
+      { "groupCode": "660505" }
+    ]
+  },
+  {
+    "direction": "Mechanics of liquid, gas and plasma",
+    "facultyId": "65354f3c8302539a6d924f91",
+    "group": [
+      { "groupCode": "660601" },
+      { "groupCode": "660602" },
+      { "groupCode": "660603" },
+      { "groupCode": "660604" },
+      { "groupCode": "660605" }
+    ]
+  },
+  {
+    "direction": "Condensed matter physics",
+    "facultyId": "65354f3c8302539a6d924f91",
+    "group": [
+      { "groupCode": "660701" },
+      { "groupCode": "660702" },
+      { "groupCode": "660703" },
+      { "groupCode": "660704" },
+      { "groupCode": "660705" }
+    ]
+  },
+  {
+    "direction": "Thermophysics and Theoretical Heat Engineering",
+    "facultyId": "65354f3c8302539a6d924f91",
+    "group": [
+      { "groupCode": "660801" },
+      { "groupCode": "660802" },
+      { "groupCode": "660803" },
+      { "groupCode": "660804" },
+      { "groupCode": "660805" }
+    ]
+  },
+  {
+    "direction": "Physical and technical sciences and technologies",
+    "facultyId": "65354f3c8302539a6d924f91",
+    "group": [
+      { "groupCode": "660901" },
+      { "groupCode": "660902" },
+      { "groupCode": "660903" },
+      { "groupCode": "660904" },
+      { "groupCode": "660905" }
+    ]
+  },
+  {
+    "direction": "Biophotonics",
+    "facultyId": "65354f3c8302539a6d924f91",
+    "group": [
+      { "groupCode": "6601001" },
+      { "groupCode": "6601002" },
+      { "groupCode": "6601003" },
+      { "groupCode": "6601004" },
+      { "groupCode": "6601005" }
+    ]
+  },
+  {
+    "direction": "Physics",
+    "facultyId": "65354f3c8302539a6d924f92",
+    "group": [
+      { "groupCode": "670101" },
+      { "groupCode": "670102" },
+      { "groupCode": "670103" },
+      { "groupCode": "670104" },
+      { "groupCode": "670105" }
+    ]
+  },
+  {
+    "direction": "Information Systems and Technologies",
+    "facultyId": "65354f3c8302539a6d924f92",
+    "group": [
+      { "groupCode": "670201" },
+      { "groupCode": "670202" },
+      { "groupCode": "670203" },
+      { "groupCode": "670204" },
+      { "groupCode": "670205" }
+    ]
+  },
+  {
+    "direction": "Fundamental and Applied Physics",
+    "facultyId": "65354f3c8302539a6d924f92",
+    "group": [
+      { "groupCode": "670301" },
+      { "groupCode": "670302" },
+      { "groupCode": "670303" },
+      { "groupCode": "670304" },
+      { "groupCode": "670305" }
+    ]
+  },
+  {
+    "direction": "Information Systems and Technology in Space Geodesy",
+    "facultyId": "65354f3c8302539a6d924f92",
+    "group": [
+      { "groupCode": "670401" },
+      { "groupCode": "670402" },
+      { "groupCode": "670403" },
+      { "groupCode": "670404" },
+      { "groupCode": "670405" }
+    ]
+  },
+  {
+    "direction": "Physical Methods and Information Technologies in Biomedicine",
+    "facultyId": "65354f3c8302539a6d924f92",
+    "group": [
+      { "groupCode": "670501" },
+      { "groupCode": "670502" },
+      { "groupCode": "670503" },
+      { "groupCode": "670504" },
+      { "groupCode": "670505" }
+    ]
+  },
+  {
+    "direction": "Biophotonics",
+    "facultyId": "65354f3c8302539a6d924f92",
+    "group": [
+      { "groupCode": "670601" },
+      { "groupCode": "670602" },
+      { "groupCode": "670603" },
+      { "groupCode": "670604" },
+      { "groupCode": "670605" }
+    ]
+  },
+  {
+    "direction": "Philology",
+    "facultyId": "65354f3c8302539a6d924f93",
+    "group": [
+      { "groupCode": "680101" },
+      { "groupCode": "680102" },
+      { "groupCode": "680103" },
+      { "groupCode": "680104" },
+      { "groupCode": "680105" }
+    ]
+  },
+  {
+    "direction": "Publishing",
+    "facultyId": "65354f3c8302539a6d924f93",
+    "group": [
+      { "groupCode": "680201" },
+      { "groupCode": "680202" },
+      { "groupCode": "680203" },
+      { "groupCode": "680204" },
+      { "groupCode": "680205" }
+    ]
+  },
+  {
+    "direction": "Fundamental and Applied Linguistic",
+    "facultyId": "65354f3c8302539a6d924f93",
+    "group": [
+      { "groupCode": "680301" },
+      { "groupCode": "680302" },
+      { "groupCode": "680303" },
+      { "groupCode": "680304" },
+      { "groupCode": "680305" }
+    ]
+  },
+  {
+    "direction": "Teacher Education",
+    "facultyId": "65354f3c8302539a6d924f93",
+    "group": [
+      { "groupCode": "680401" },
+      { "groupCode": "680402" },
+      { "groupCode": "680403" },
+      { "groupCode": "680404" },
+      { "groupCode": "680405" }
+    ]
+  },
+  {
+    "direction": "Literacy Creativity",
+    "facultyId": "65354f3c8302539a6d924f93",
+    "group": [
+      { "groupCode": "680501" },
+      { "groupCode": "680502" },
+      { "groupCode": "680503" },
+      { "groupCode": "680504" },
+      { "groupCode": "680505" }
+    ]
+  },
+  {
+    "direction": "Philosophy",
+    "facultyId": "65354f3c8302539a6d924f94",
+    "group": [
+      { "groupCode": "690101" },
+      { "groupCode": "690102" },
+      { "groupCode": "690103" },
+      { "groupCode": "690104" },
+      { "groupCode": "690105" }
+    ]
+  },
+  {
+    "direction": "Sociology",
+    "facultyId": "65354f3c8302539a6d924f94",
+    "group": [
+      { "groupCode": "690201" },
+      { "groupCode": "690202" },
+      { "groupCode": "690203" },
+      { "groupCode": "690204" },
+      { "groupCode": "690205" }
+    ]
+  },
+  {
+    "direction": "Social Work",
+    "facultyId": "65354f3c8302539a6d924f94",
+    "group": [
+      { "groupCode": "690301" },
+      { "groupCode": "690302" },
+      { "groupCode": "690303" },
+      { "groupCode": "690304" },
+      { "groupCode": "690305" }
+    ]
+  },
+  {
+    "direction": "Chemistry",
+    "facultyId": "65354f3c8302539a6d924f95",
+    "group": [
+      { "groupCode": "700101" },
+      { "groupCode": "700102" },
+      { "groupCode": "700103" },
+      { "groupCode": "700104" },
+      { "groupCode": "700105" }
+    ]
+  },
+  {
+    "direction": "Fundamental and Applied Chemistry",
+    "facultyId": "65354f3c8302539a6d924f95",
+    "group": [
+      { "groupCode": "700201" },
+      { "groupCode": "700202" },
+      { "groupCode": "700203" },
+      { "groupCode": "700204" },
+      { "groupCode": "700205" }
+    ]
+  },
+  {
+    "direction": "Teacher Education",
+    "facultyId": "65354f3c8302539a6d924f96",
+    "group": [
+      { "groupCode": "710101" },
+      { "groupCode": "710102" },
+      { "groupCode": "710103" },
+      { "groupCode": "710104" },
+      { "groupCode": "710105" }
+    ]
+  },
+  {
+    "direction": "Preparation course for admission to TSU for foreign student",
+    "facultyId": "65354f3c8302539a6d924f97",
+    "group": [
+      { "groupCode": "720101" },
+      { "groupCode": "720102" },
+      { "groupCode": "720103" },
+      { "groupCode": "720104" },
+      { "groupCode": "720105" }
+    ]
+  }
+]

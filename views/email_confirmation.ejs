@@ -1,0 +1,82 @@
+<!-- views/email_confirmation.ejs -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Email Verification</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: #2d85c5;
+      }
+      .container {
+        font-family: "Montserrat", sans-serif;
+        text-align: center;
+        padding: 80px;
+        max-width: 600px;
+        margin: 0 auto;
+      }
+      .content {
+        background-color: #fff;
+        padding: 20px 40px;
+        border-radius: 10px;
+      }
+      .logo {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+      }
+      img {
+        max-width: 100%;
+        height: auto;
+        margin-right: 15px;
+      }
+      h1 {
+        color: #333;
+        font-weight: 900;
+        font-size: 30px;
+        margin: 0;
+      }
+      p {
+        font-size: 18px;
+      }
+
+      @media (max-width: 768px) {
+        .container {
+          padding: 20px;
+        }
+        .content {
+          padding: 10px 20px;
+        }
+        h1 {
+          font-size: 24px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="content">
+        <div class="logo">
+          <img
+            src="<%= logo %>"
+            alt="logo"
+            width="360"
+            height="35"
+            style="
+              display: block;
+              width: 100%;
+              max-width: 47px;
+              height: auto;
+              max-height: 35px;
+            "
+          />
+          <h1>MyTSU Classroom</h1>
+        </div>
+        <p><%= message %></p>
+      </div>
+    </div>
+  </body>
+</html>

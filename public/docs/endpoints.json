@@ -1,0 +1,619 @@
+[
+  {
+    "method": "GET",
+    "endpoint": "/faculty",
+    "description": "Get all faculties",
+    "authorization": null,
+    "request": null,
+    "response": [
+      {
+        "_id": "65354f3c8302539a6d924f82",
+        "faculty": "Institute of Applied Mathematics and Computer Science"
+      }
+    ]
+  },
+  {
+    "method": "GET",
+    "endpoint": "/faculty/{faculty_id}",
+    "description": "Get all directions and groups",
+    "authorization": null,
+    "request": null,
+    "response": [
+      {
+        "_id": "653552cfa8d8a94a41b29de5",
+        "direction": "Fundamental Informatic and Informations Technology",
+        "facultyId": "65354f3c8302539a6d924f82",
+        "group": [
+          {
+            "_id": "653623ab76afb36db90df375",
+            "groupCode": "510101"
+          },
+          {
+            "_id": "653623ab76afb36db90df376",
+            "groupCode": "510102"
+          },
+          {
+            "_id": "653623ab76afb36db90df377",
+            "groupCode": "510103"
+          },
+          {
+            "_id": "653623ab76afb36db90df378",
+            "groupCode": "510104"
+          },
+          {
+            "_id": "653623ab76afb36db90df379",
+            "groupCode": "510105"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "method": "GET",
+    "endpoint": "/group",
+    "description": "Get all group",
+    "authorization": null,
+    "request": null,
+    "response": [
+        {
+            "_id": "6592ae6e40bdcdfba5d10626",
+            "groupCode": "3424"
+        },
+        {
+            "_id": "659404643dadf7bec6b646ca",
+            "groupCode": "1232"
+        },
+        {
+            "_id": "659404703dadf7bec6b646d6",
+            "groupCode": "34543"
+        }
+    ]
+  },
+  {
+    "method": "POST",
+    "endpoint": "/register",
+    "description": "Create a new account",
+    "authorization": null,
+    "request": {
+      "name": "String",
+      "birthDate": "DATE in milliseconds (Number)",
+      "email": "String",
+      "phone": "String",
+      "role": "Student&#34; &#47; &#34;Teacher",
+      "faculty": "String",
+      "direction": "String",
+      "group": "String",
+      "grade": "Number",
+      "avatar": "File"
+    },
+    "response": {
+      "error": false,
+      "message": "User data has been saved."
+    }
+  },
+  {
+    "method": "PUT",
+    "endpoint": "/profile",
+    "description": "Update an account",
+    "authorization": "Authorization: Bearer &lt;token&gt;",
+    "request": {
+      "name": "String",
+      "birthDate": "DATE in milliseconds (Number)",
+      "phone": "String",
+      "role": "Student&#34; &#47; &#34;Teacher",
+      "faculty": "String",
+      "direction": "String",
+      "group": "String",
+      "grade": "Number",
+      "avatar": "File"
+    },
+    "response": {
+      "error": false,
+      "message": "User has been updated successfully"
+    }
+  },
+  {
+    "method": "PUT",
+    "endpoint": "/change-password",
+    "description": "Update an password",
+    "authorization": "Authorization: Bearer &lt;token&gt;",
+    "request": {
+      "newPassword":"ASDASWA23",
+      "confirmPassword":"ASDASWA23"
+    },
+    "response": {
+      "error": false,
+      "message": "Password has been updated successfully"
+    }
+  },
+  {
+    "method": "POST",
+    "endpoint": "/login",
+    "description": "Login to the server",
+    "authorization": null,
+    "request": {
+      "email": "address@gmail.com",
+      "password": "INYlRP0BcmTzQ4uW"
+    },
+    "response": {
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2NTM2MTM1ZTNlZjM4NGY2YzdmYjM4OTMiLCJpYXQiOjE3MDM0MDI3NzYsImV4cCI6MTcwMzQwNDU3Nn0.miX_WgDBk7ZFWufvC-YhVrUPD6pwXUpDFdVf_GSTC6Q"
+    }
+  },
+  {
+    "method": "POST",
+    "endpoint": "/logout",
+    "description": "Logout to the server",
+    "authorization": "Authorization: Bearer &lt;token&gt;",
+    "request": null,
+    "response": {
+      "error": false,
+      "message": "Successfully logged out"
+    }
+  },
+  {
+    "method": "GET",
+    "endpoint": "/user?isAdminVerified",
+    "description": "Get user waiting for acc",
+    "authorization": null,
+    "request": null,
+    "response": [
+        {
+            "_id": "658ed01f88c718118af68f2d",
+            "name": "tes",
+            "email": "tes3@gmail.com",
+            "phone": "081232364799",
+            "avatar": "localhost:8080/uploads/avatar/Avatar_Profile_1703858207216.jpg",
+            "role": "Teacher",
+            "isAdminVerified": false
+        }
+    ]
+  },
+  {
+    "method": "POST",
+    "endpoint": "/acceptuser",
+    "description": "Accept default user by admin",
+    "authorization": "Authorization: Bearer &lt;token&gt;",
+    "request": {
+      "userId": "655b4e7df72be76b389fc589"
+    },
+    "response": {
+      "error": false,
+      "message": "Successfully verified Jane Doe"
+    }
+  },
+  {
+    "method": "DELETE",
+    "endpoint": "/delete-user",
+    "description": "Accept default user by admin",
+    "authorization": "Authorization: Bearer &lt;token&gt;",
+    "request": {
+      "userId": "655b4e7df72be76b389fc589"
+    },
+    "response": {
+      "error": false,
+      "message": "User has been deleted successfully."
+    }
+  },
+  {
+    "method": "POST",
+    "endpoint": "/admin/faculty",
+    "description": "Create a new faculty",
+    "authorization": "Authorization: Bearer &lt;token&gt;",
+    "request": {
+      "facultyId": "652e4e4994e419f3199ba2be",
+      "facultyName": "Fakultas Kedokteran"
+    },
+    "response": {
+      "error": false,
+      "message": "Faculty (Fakultas Kedokteran) is registered."
+    }
+  },
+  {
+    "method": "PUT",
+    "endpoint": "/admin/faculty",
+    "description": "Update a faculty",
+    "authorization": "Authorization: Bearer &lt;token&gt;",
+    "request": {
+      "facultyId": "652e4e4994e419f3199ba2be",
+      "facultyName": "Fakultas Ilmu Kedokteran"
+    },
+    "response": {
+      "error": false,
+      "message": "Faculty has been updated successfully."
+    }
+  },
+  {
+    "method": "DELETE",
+    "endpoint": "/admin/faculty",
+    "description": "Delete a faculty",
+    "authorization": "Authorization: Bearer &lt;token&gt;",
+    "request": {
+      "facultyId": "652e4e4994e419f3199ba2be"
+    },
+    "response": {
+      "error": false,
+      "message": "Faculty (Fakultas Kedokteran) has been deleted successfully."
+    }
+  },
+  {
+    "method": "POST",
+    "endpoint": "/admin/direction",
+    "description": "Create a new direction",
+    "authorization": "Authorization: Bearer &lt;token&gt;",
+    "request": {
+      "facultyId": "652d3a0f5c034077868f29c2",
+      "directionName": "SpaceX"
+    },
+    "response": {
+      "error": false,
+      "message": "Direction (SpaceX) is registered."
+    }
+  },
+  {
+    "method": "PUT",
+    "endpoint": "/admin/direction",
+    "description": "Update a direction",
+    "authorization": "Authorization: Bearer &lt;token&gt;",
+    "request": {
+      "directionId": "6536192176afb36db90df30b",
+      "directionName": "NASA",
+      "facultyId": "6536253b76afb36db90df3ba"
+    },
+    "response": {
+      "error": false,
+      "message": "Direction has been updated successfully."
+    }
+  },
+  {
+    "method": "DELETE",
+    "endpoint": "/admin/direction",
+    "description": "Delete a direction",
+    "authorization": "Authorization: Bearer &lt;token&gt;",
+    "request": {
+      "directionId": "652e52a294e419f3199ba2d2"
+    },
+    "response": {
+      "error": false,
+      "message": "Direction (NASA) has been deleted successfully."
+    }
+  },
+  {
+    "method": "POST",
+    "endpoint": "/admin/group",
+    "description": "Create a new group",
+    "authorization": "Authorization: Bearer &lt;token&gt;",
+    "request": {
+      "directionId": "652e53d894e419f3199ba2e1",
+      "groupCode": "973002"
+    },
+    "response": {
+      "error": false,
+      "message": "Group (973002) is registered."
+    }
+  },
+  {
+    "method": "PUT",
+    "endpoint": "/admin/group",
+    "description": "Update a group",
+    "authorization": "Authorization: Bearer &lt;token&gt;",
+    "request": {
+      "directionId": "652e53d894e419f3199ba2e1",
+      "groupCodeBefore": "973002",
+      "groupCodeAfter": "973001"
+    },
+    "response": {
+      "error": false,
+      "message": "Group code has been updated successfully."
+    }
+  },
+  {
+    "method": "DELETE",
+    "endpoint": "/admin/group",
+    "description": "Delete a group",
+    "authorization": "Authorization: Bearer &lt;token&gt;",
+    "request": {
+      "directionId": "6536192176afb36db90df30b",
+      "groupCode": "973003"
+    },
+    "response": {
+      "error": false,
+      "message": "Group code (973003) has been deleted successfully."
+    }
+  },
+  {
+    "method": "GET",
+    "endpoint": "/user?role=teacher",
+    "description": "Get all teacher",
+    "authorization": null,
+    "request": null,
+    "response": [
+      {
+        "_id": "655b4e7df72be76b389fc589",
+        "name": "Jane Doe",
+        "email": "janedoe@mail.com",
+        "phone": "+123456789",
+        "avatar": "avatar.png",
+        "role": "Teacher",
+        "faculty": "HITS",
+        "direction": "Software Enginering",
+        "group": 912023,
+        "grade": 4
+      }
+    ]
+  },
+  {
+    "method": "GET",
+    "endpoint": "/discipline",
+    "description": "Get all disciplines and its schedules",
+    "authorization": null,
+    "request": null,
+    "response": [
+      {
+        "discipline": {
+          "_id": "655b495e67ec8cfd774cd8ae",
+          "discipline": "Mobile Development",
+          "description_plainContent": "Description",
+          "description_htmlContent": "&#60;p&#62;Description&#60;&#47;p&#62;",
+          "year": "2023-2024",
+          "grade": "4",
+          "readingAndLiterature_plainContent": "Reading and Literature",
+          "readingAndLiterature_htmlContent": "&#60;p&#62;Reading and Literature&#60;&#47;p&#62;",
+          "groupId": "653625e276afb36db90df3d1",
+          "teacherId": "6536135e3ef384f6c7fb3893"
+        },
+        "schedule": [
+          {
+            "_id": "655b495e67ec8cfd774cd8b0",
+            "disciplineId": "655b495e67ec8cfd774cd8ae",
+            "season": "Autumn",
+            "method": "Offline",
+            "building": "2",
+            "room": "233",
+            "dayOfWeek": 3,
+            "startTime": "14:45",
+            "finishTime": "16:00"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "method": "GET",
+    "endpoint": "/discipline?groupId={groupId}",
+    "description": "Get disciplines based on Group ID",
+    "authorization": null,
+    "request": null,
+    "response": [
+      {
+        "discipline": {
+          "_id": "656d700b1ad86a9543cc7de8",
+          "discipline": "Website Development",
+          "description_plainContent": "Description",
+          "description_htmlContent": "<p>Description</p>",
+          "year": "2023-2024",
+          "grade": "4",
+          "readingAndLiterature_plainContent": "Reading and Literature",
+          "readingAndLiterature_htmlContent": "<p>Reading and Literature</p>",
+          "groupId": ["653625e276afb36db90df3d1", "654a2802be9cb9ed2d0e7f2e"],
+          "teacherId": "6536135e3ef384f6c7fb3893"
+        },
+        "schedule": [
+          {
+            "_id": "656d700b1ad86a9543cc7dea",
+            "disciplineId": "656d700b1ad86a9543cc7de8",
+            "season": "Autumn",
+            "method": "Offline",
+            "building": "2",
+            "room": "233",
+            "dayOfWeek": 3,
+            "startTime": "14:45",
+            "finishTime": "16:00"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "method": "GET",
+    "endpoint": "/discipline?teacherId={teacherId}",
+    "description": "Get disciplines based on Teacher ID",
+    "authorization": null,
+    "request": null,
+    "response": [
+      {
+        "discipline": {
+          "_id": "655b4ef0098e4768c913299a",
+          "discipline": "Mobile Development",
+          "description_plainContent": "Description",
+          "description_htmlContent": "<p>Description</p>",
+          "year": "2023-2024",
+          "grade": "4",
+          "readingAndLiterature_plainContent": "Reading and Literature",
+          "readingAndLiterature_htmlContent": "<p>Reading and Literature</p>",
+          "groupId": ["653625e276afb36db90df3d1"],
+          "teacherId": "655b4e7df72be76b389fc589"
+        },
+        "schedule": [
+          {
+            "_id": "655b4ef0098e4768c913299c",
+            "disciplineId": "655b4ef0098e4768c913299a",
+            "season": "Autumn",
+            "method": "Offline",
+            "building": "2",
+            "room": "233",
+            "dayOfWeek": 3,
+            "startTime": "14:45",
+            "finishTime": "16:00"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "method": "GET",
+    "endpoint": "/discipline?season={season}",
+    "description": "Get disciplines based on Season",
+    "authorization": null,
+    "request": null,
+    "response": [
+      {
+        "discipline": {
+          "_id": "655b4ef0098e4768c913299a",
+          "discipline": "Mobile Development",
+          "description_plainContent": "Description",
+          "description_htmlContent": "<p>Description</p>",
+          "year": "2023-2024",
+          "grade": "4",
+          "readingAndLiterature_plainContent": "Reading and Literature",
+          "readingAndLiterature_htmlContent": "<p>Reading and Literature</p>",
+          "groupId": ["653625e276afb36db90df3d1"],
+          "teacherId": "655b4e7df72be76b389fc589"
+        },
+        "schedule": [
+          {
+            "_id": "655b4ef0098e4768c913299c",
+            "disciplineId": "655b4ef0098e4768c913299a",
+            "season": "Autumn",
+            "method": "Offline",
+            "building": "2",
+            "room": "233",
+            "dayOfWeek": 3,
+            "startTime": "14:45",
+            "finishTime": "16:00"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "method": "POST",
+    "endpoint": "/admin/discipline",
+    "description": "Create a discipline",
+    "authorization": "Authorization: Bearer &lt;token&gt;",
+    "request": {
+      "disciplineName": "Mobile Development",
+      "description_plainContent": "Description",
+      "description_htmlContent": "&#60;p&#62;Description&#60;&#47;p&#62;",
+      "year": "2023-2024",
+      "grade": "4",
+      "readingAndLiterature_plainContent": "Reading and Literature",
+      "readingAndLiterature_htmlContent": "&#60;p&#62;Reading and Literature&#60;&#47;p&#62;",
+      "groupId": ["653625e276afb36db90df3d1", "654a2802be9cb9ed2d0e7f2e"],
+      "teacherId": "655b4e7df72be76b389fc589",
+      "season": "Autumn",
+      "method": "Offline",
+      "building": 2,
+      "room": "233",
+      "dayOfWeek": "3",
+      "startTime": "14:45",
+      "finishTime": "16:00"
+    },
+    "response": {
+      "error": false,
+      "message": "Discipline has been saved successfully."
+    }
+  },
+  {
+    "method": "PUT",
+    "endpoint": "/admin/discipline",
+    "description": "Update a discipline",
+    "authorization": "Authorization: Bearer &lt;token&gt;",
+    "request": {
+      "disciplineId": "656d700b1ad86a9543cc7de8",
+      "disciplineName": "Website Development",
+      "description_plainContent": "Description",
+      "description_htmlContent": "&#60;p&#62;Description&#60;&#47;p&#62;",
+      "year": "2023-2024",
+      "grade": "4",
+      "readingAndLiterature_plainContent": "Reading and Literature",
+      "readingAndLiterature_htmlContent": "&#60;p&#62;Reading and Literature&#60;&#47;p&#62;",
+      "groupId": ["653625e276afb36db90df3d1"],
+      "teacherId": "6536135e3ef384f6c7fb3893"
+    },
+    "response": {
+      "error": false,
+      "message": "Discipline has been updated successfully."
+    }
+  },
+  {
+    "method": "DELETE",
+    "endpoint": "/admin/discipline",
+    "description": "Delete a discipline",
+    "authorization": "Authorization: Bearer &lt;token&gt;",
+    "request": {
+      "disciplineId": "654a2caf95f4602a17925455"
+    },
+    "response": {
+      "error": false,
+      "message": "Discipline has been deleted successfully."
+    }
+  },
+  {
+    "method": "PUT",
+    "endpoint": "/teacher/discipline",
+    "description": "Update a discipline",
+    "authorization": "Authorization: Bearer &lt;token&gt;",
+    "request": {
+      "disciplineId": "658ee5709fa6241a7f8ed814",
+      "disciplineName": "Website Development",
+      "description_plainContent": "Description",
+      "description_htmlContent": "<p>Description</p>",
+      "year": "2023-2024",
+      "grade": "4",
+      "readingAndLiterature_plainContent": "Reading and Literature",
+      "readingAndLiterature_htmlContent": "<p>Reading and Literature</p>",
+      "groupId": [3424],
+      "teacherId": ["658ecec088c718118af68f21"]
+    },
+    "response": {
+      "error": false,
+      "message": "Discipline has been updated successfully."
+    }
+  },
+  {
+    "method": "DELETE",
+    "endpoint": "/admin/discipline",
+    "description": "Delete a discipline",
+    "authorization": "Authorization: Bearer &lt;token&gt;",
+    "request": {
+      "disciplineId": "654a2caf95f4602a17925455"
+    },
+    "response": {
+      "error": false,
+      "message": "Discipline has been deleted successfully."
+    }
+  },
+  {
+    "method": "PUT",
+    "endpoint": "/admin/schedule",
+    "description": "Update a schedule",
+    "authorization": "Authorization: Bearer &lt;token&gt;",
+    "request": {
+      "scheduleId": "655b3f27c9b0eff685a51473",
+      "season": "Spring",
+      "method": "Offline",
+      "building": 2,
+      "room": "233",
+      "dayOfWeek": "3",
+      "startTime": "14:45",
+      "finishTime": "16:00"
+    },
+    "response": {
+      "error": false,
+      "message": "Schedule has been updated successfully."
+    }
+  },
+  {
+    "method": "DELETE",
+    "endpoint": "/admin/schedule",
+    "description": "Delete a schedule",
+    "authorization": "Authorization: Bearer &lt;token&gt;",
+    "request": {
+      "scheduleId": "655b3f27c9b0eff685a51473"
+    },
+    "response": {
+      "error": false,
+      "message": "Schedule has been deleted successfully."
+    }
+  }
+]
